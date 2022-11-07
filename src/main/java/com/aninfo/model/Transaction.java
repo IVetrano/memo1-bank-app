@@ -15,6 +15,9 @@ public class Transaction {
     private TransactionType transactionType;
     private Long accountCbu;
 
+    public Transaction(){
+    }
+
     public Transaction(TransactionType transactionType, Double transactionAmount, Long accountCbu) {
         this.transactionType = transactionType;
         this.amount = transactionAmount;
